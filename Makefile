@@ -1,4 +1,6 @@
+AIP=grep-2.5.4.aip
+
 all: installer
 
-installer: grep-2.5.4.aip
-	AdvancedInstaller /build grep-2.5.4.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
